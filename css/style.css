@@ -240,7 +240,7 @@ h2 {
   .header__burger-menu .header__phone-navigation {
     position: absolute;
     width: 110vw;
-    height: 110vh;
+    height: 100vh;
     padding: 30px;
     padding-top: 65px;
     margin: -117vh 0 0 -80vw;
