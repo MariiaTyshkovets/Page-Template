@@ -9,13 +9,13 @@
     justify-content: space-between;
     align-items: flex-end;
 
-    @include phone {
+    @include phone-L {
         align-items: flex-start;
         flex-direction: column;
     }
 
     h1 {
-        @include phone {
+        @include phone-L {
             margin-bottom: 23px;
         }
     }
@@ -29,7 +29,7 @@
     text-align: end;
     width: 40px;
 
-    @include phone {
+    @include phone-L {
         display: none;
     }
 }
@@ -59,7 +59,7 @@
 
 .banner__img {
     .desktop-img {
-        @include phone {
+        @include phone-L {
             display: none;
         }
     }
@@ -67,7 +67,7 @@
     .mobile-img {
         display: none;
 
-        @include phone {
+        @include phone-L {
             display: block;
         }
     }

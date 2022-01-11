@@ -2,6 +2,12 @@
     border-left: 3px solid $primary-color;
 }
 
+@mixin phone-L {
+    @media (max-width: $phone-width-L) {
+        @content;
+    }
+}
+
 @mixin phone {
     @media (max-width: $phone-width) {
         @content;
