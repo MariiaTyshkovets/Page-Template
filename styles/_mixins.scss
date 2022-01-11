@@ -1,0 +1,9 @@
+@mixin line-decorate {
+    border-left: 3px solid $primary-color;
+}
+
+@mixin phone {
+    @media (max-width: $phone-width) {
+        @content;
+    }
+}

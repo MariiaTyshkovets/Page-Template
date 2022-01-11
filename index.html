@@ -4,11 +4,196 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__burger-menu" id="burger">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <nav class="header__phone-navigation">
+                    <ul class="nav-list">
+                        <li>
+                            <a class="nav-list__item nav-list__item--active" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="nav-list__item" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="header__navigation">
+                <ul class="nav-list">
+                    <li>
+                        <a class="nav-list__item nav-list__item--active" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-list__item" href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a class="nav-list__item" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="nav-list__item" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-list__item" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__home" id="home">
+            <div class="wrapper">
+                <div class="banner">
+                    <div class="banner__top">
+                        <h1>Denis<br>Novik</h1>
+                        <span>UX|UI designer<br>24 years old, Minsk</span>
+                        <ul class="lang">
+                            <li><a class="lang__item" href="#">RU</a></li>
+                            <li><a class="lang__item lang__item--active" href="index.html">ENG</a></li>
+                        </ul>
+                    </div>
+                    <div class="banner__img">
+                        <img class="desktop-img" src="img/main-photo.png" alt="Main photo">
+                        <img class="mobile-img" src="img/main-photo-mobile.png" alt="Main photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__about" id="about">
+            <div class="wrapper">
+                <div class="about">
+                    <h2>About me</h2>
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
+                    <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                    <p>Ready to implement excellent projects with wonderful people.</p>
+                </div>
+            </div>
+        </section>
+        <section class="main__skills" id="skills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <p>I work in such programs as</p>
+                <div class="block-skills">
+                    <div class="block-skills__item">
+                        <div class="block-skills__img">
+                            <img src="img/adobe-photoshop.png" alt="adobe-photoshop" id="photoshop">
+                        </div>
+                        <label for="photoshop">Adobe Photoshop</label>
+                        <div class="rating">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="block-skills__item">
+                        <div class="block-skills__img">
+                            <img src="img/adobe-illustrator.png" alt="adobe-illustrator" id="illustrator">
+                        </div>
+                        <label for="illustrator">Adobe Illustrator</label>
+                        <div class="rating">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="block-skills__item">
+                        <div class="block-skills__img">
+                            <img src="img/adobe-after-effects.png" alt="adobe-after-effects" id="after-effects">
+                        </div>
+                        <label for="after-effects">Adobe After Effects</label>
+                        <div class="rating">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="block-skills__item">
+                        <div class="block-skills__img">
+                            <img src="img/figma.png" alt="figma" id="figma">
+                        </div>
+                        <label for="figma">Figma</label>
+                        <div class="rating">
+                            <span class="active"></span>	
+                            <span class="active"></span>    
+                            <span class="active"></span>  
+                            <span class="active"></span>    
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        <section class="main__portfolio" id="portfolio">
+            <div class="wrapper">
+                <h2>Portfolio</h2>
+                <div class="concept">
+                    <div class="concept__img">
+                        <img src="img/concept-1.png" alt="Online fashion store - Homepage">
+                    </div>
+                    <a href="#">Online fashion store - Homepage</a>
+                </div>
+                <div class="concept">
+                    <div class="concept__img">
+                        <img src="img/concept-2.png" alt="Reebok Store - Concept">
+                    </div>
+                    <a href="#">Reebok Store - Concept</a> 
+                </div>
+                <div class="concept">
+                    <div class="concept__img">
+                        <img src="img/concept-3.png" alt="Braun Landing Page - Concept">
+                    </div>
+                    <a href="#">Braun Landing Page - Concept</a>
+                </div>
+            </div>
+        </section>
+        <section class="main__contacts" id="contacts">
+            <div class="wrapper">
+                <h2>Contacts</h2>
+                <p>Want to know more or just chat? <br> You are welcome!</p>
+                <a href="#"><button type="submit" class="btn">Send message</button></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__logo-contacts">
+                <a href="#" target="_blank">
+                    <object data="svg/linkedin.svg" alt="linkedin logo"></object>
+                </a>
+                <a href="#" target="_blank">
+                    <object data="svg/instagram.svg" alt="instagram logo"></object>
+                </a>
+                <a href="#" target="_blank">
+                    <object data="svg/behance.svg" alt="behance logo"></object>
+                </a>
+                <a href="#" target="_blank">
+                    <object data="svg/dribble.svg" alt="dribble logo"></object>
+                </a>
+            </div>
+            <p>Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </footer>
 </body>
 </html>
