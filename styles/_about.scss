@@ -1,0 +1,21 @@
+.main__about {
+    background-color: $background-color;
+}
+
+.about {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 18px;
+    }
+    
+    p {
+        margin-bottom: 30px;
+        max-width: 460px;
+    }
+}

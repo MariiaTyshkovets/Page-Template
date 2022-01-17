@@ -1,0 +1,20 @@
+.footer {  
+    padding-bottom: 100px;
+    text-align: center;
+
+    p {
+        font-size: 14px;
+        line-height: 1.21;
+        color: $secondary-color;
+    }
+}
+
+.footer__logo-contacts {
+    margin: 0 auto;
+    max-width: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 46px;
+}

@@ -1,0 +1,26 @@
+.main__contacts {
+    padding-top: 114px;
+    padding-bottom: 85px;
+    text-align: center;
+    
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+}
+
+.btn {
+    background: url(../svg/btn.svg);
+    background-color: $primary-color;
+    color: $additional-color;
+    padding: 13px 30px;
+    font-size: 18px;
+    line-height: 1.2;
+    border-radius: 21px;
+    cursor: pointer;
+}
